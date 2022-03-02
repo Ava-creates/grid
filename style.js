@@ -9,5 +9,11 @@ $(".grid2").each((index, element) => {
       element.css("grid-column", 2);
     }
   });
+
+var sound = new Howl({
+  src: ['sound.mp3']
+});
+
+sound.play();
   
-  AOS.init();
+AOS.init();
