@@ -1,3 +1,4 @@
+AOS.init();
 $(".grid2").each((index, element) => {
     index += 1; 
     element = $(element);
@@ -19,4 +20,4 @@ var sound = new Howl({
 
 sound.play();
   
-AOS.init();
+
