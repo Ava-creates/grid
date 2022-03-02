@@ -12,6 +12,9 @@ $(".grid2").each((index, element) => {
 
 var sound = new Howl({
   src: ['sound.mp3']
+  autoplay: true,
+  loop: true,
+  volume: 0.5,
 });
 
 sound.play();
